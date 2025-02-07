@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Monsieur+La+Doulaise&display=swap');
+body {
+    font-family: "Allura", serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0 10%;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.top-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.top-nav ul li {
+    margin: 0 20px;
+    padding: 0 10px;
+}
+
+.top-nav ul li a {
+    text-decoration: none;
+    color: #595959;  
+
+}
+
+.menu-lateral ul li:hover {
+    background-color: #b2f4b5;
+    content: " OK";
+    border-radius: 20px;
+}
+
+.menu-lateral ul li::before {
+    padding-left: 50px;
+}
+
+.menu-lateral ul li:hover::before {
+    padding-left: 0px;
+    content: "⚽";
+}
+
+.search-form {
+    display: flex;
+}
+
+.search-form input {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 30px;;
+}
+
+.search-form button {
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #333;
+}
+
+h1 {
+    color: #444;
+    font-size: 24px;
+    margin: 0;
+    padding-right: 30px;
+}
+
+.main-container {
+    display: flex;
+}
+
+nav {
+    /* background-color: #e0e0e0; */
+    width: 200px;
+    padding: 20px;
+}
+
+nav ul {
+    background-color: white;
+    list-style-type: none;
+    padding: 0;
+    border-radius: 20px;
+}
+
+nav ul li {
+    /* margin: 10px 0; */
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #444;
+    
+    font-size: 1.5rem;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.news-of-the-day{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.news-of-the-day img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.news-of-the-day p {
+    
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h2{
+    color: gray;
+    font-size: 2rem;
+}
+
+.videos div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    flex-wrap: wrap;
+}
+
+.video-item{
+    margin: 10px
+}
+
+.latest-news h2, .videos h2 {
+    color: gray;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.latest-news {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.news-item {
+    background-color: #ffffff;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    width: calc(50% - 10px); /* Creates two columns */
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.news-item img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.news-item .text {
+    flex: 1;
+}
+
+.news-item p {
+    margin: 0;
+    font-size: 16px;
+    color: #444;
+}
+
+.news-item button {
+    background-color: #b2f4b5; /* Green light */
+    border: none;
+    color: rgb(137, 137, 137);
+    font-family: "Allura", serif;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.botao {
+    background-color: #b2f4b5; /* Green light */
+    border: none;
+    color: rgb(137, 137, 137);
+    font-family: "Allura", serif;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.news-item button:hover {
+    background-color: #6bbf91;
+}
+
+.video-item {
+    margin-bottom: 20px;
+}
+
+.video-item iframe {
+ 
+    border-radius: 10px;
+}
+
+.ytp-title-link{
+    font-family: "Allura", serif !important;
+}
+
+.yt-uix-sessionlink{
+    font-family: "Allura", serif !important;
+}
