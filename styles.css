@@ -118,6 +118,7 @@ nav ul li a {
 main {
     flex: 1;
     padding: 20px;
+    width: 40%;
 }
 
 .news-of-the-day{
@@ -141,6 +142,10 @@ main {
 h2{
     color: gray;
     font-size: 2rem;
+}
+
+.videos{
+    width: 40%;
 }
 
 .videos div{
@@ -224,7 +229,7 @@ h2{
 }
 
 .video-item iframe {
- 
+    width: 400px;
     border-radius: 10px;
 }
 
